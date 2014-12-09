@@ -161,49 +161,49 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoHP.png" />
+    <None Include="Resources\LogoHP.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoHP2.png" />
+    <None Include="Resources\LogoHP2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoHP3.bmp" />
+    <None Include="Resources\LogoHP3.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoDEst.png" />
+    <None Include="Resources\LogoDEst.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoDOuest.png" />
+    <None Include="Resources\LogoDOuest.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="RandomPlayer.jpg" />
+    <None Include="Resources\RandomPlayer.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="BackShirt.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoLA.bmp" />
+    <None Include="Resources\LogoLA.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoPitt.bmp" />
+    <None Include="Resources\LogoPitt.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoSan.bmp" />
+    <None Include="Resources\LogoSan.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoTor.bmp" />
+    <None Include="Resources\LogoTor.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoBos.bmp" />
+    <None Include="Resources\LogoBos.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoCal.bmp" />
+    <None Include="Resources\LogoCal.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoCan.bmp" />
+    <None Include="Resources\LogoCan.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoCol.bmp" />
+    <None Include="Resources\LogoCol.bmp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ArrowLeft.gif" />
@@ -215,22 +215,22 @@
     <None Include="Resources\ClassementAsso.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogoDBase.png" />
+    <None Include="Resources\LogoDBase.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Modif.png" />
+    <None Include="Resources\Modif.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AjoutDivisionDisabled.png" />
+    <None Include="Resources\AjoutDivisionDisabled.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AjoutDivisionNormal.png" />
+    <None Include="Resources\AjoutDivisionNormal.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AjoutDivision_Hover %282%29.gif" />
+    <None Include="Resources\AjoutDivision_Hover %282%29.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AjoutDivisionClick.gif" />
+    <None Include="Resources\AjoutDivisionClick.gif" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Barrie.jpg" />
