@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8932A33-D16C-4288-AF96-ABFED779487C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TPFINAL</RootNamespace>
+    <AssemblyName>TPFINAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BoutonFlash">
+      <HintPath>L:\C-SHARP\User Control and Files\BoutonFlash\BoutonFlash\bin\Debug\BoutonFlash.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashButton, Version=1.0.2.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FlashButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AjoutDivision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutDivision.Designer.cs">
+      <DependentUpon>AjoutDivision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutEquipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutEquipe.Designer.cs">
+      <DependentUpon>AjoutEquipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutJoueur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutJoueur.Designer.cs">
+      <DependentUpon>AjoutJoueur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apropos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apropos.Designer.cs">
+      <DependentUpon>Apropos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Association.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Association.Designer.cs">
+      <DependentUpon>Association.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connection.Designer.cs">
+      <DependentUpon>Connection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Division.cs" />
+    <Compile Include="Equipe.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEquipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEquipe.Designer.cs">
+      <DependentUpon>FormEquipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joueur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Joueur.Designer.cs">
+      <DependentUpon>Joueur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AjoutDivision.resx">
+      <DependentUpon>AjoutDivision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutEquipe.resx">
+      <DependentUpon>AjoutEquipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutJoueur.resx">
+      <DependentUpon>AjoutJoueur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apropos.resx">
+      <DependentUpon>Apropos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Association.resx">
+      <DependentUpon>Association.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connection.resx">
+      <DependentUpon>Connection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEquipe.resx">
+      <DependentUpon>FormEquipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joueur.resx">
+      <DependentUpon>Joueur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoHP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoHP2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoHP3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoDEst.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoDOuest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RandomPlayer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackShirt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoLA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoPitt.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoSan.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoTor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoBos.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoCal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoCan.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoCol.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowLeft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowRight.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClassementAsso.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoDBase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Modif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AjoutDivisionDisabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AjoutDivisionNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AjoutDivision_Hover %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AjoutDivisionClick.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barrie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bergeron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bernier.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bozak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brodie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Burns.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chara.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Couture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crosby.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doughty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Duchene.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ehrhoff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fleury.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Franson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gallagher.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gaudreau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Giordano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hiller.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hudler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Johnson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kessel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Letang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lucic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mackinnon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malkin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Markov.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Niemi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacioretty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phaneuf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Price.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quick.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rask.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Regehr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seidenberg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subban.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thornton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toffoli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Varlamov.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vlasic.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
