@@ -42,7 +42,7 @@ namespace TPFINAL
             try
             {
                 LBL_Nom.DataBindings.Clear();
-                PBX_Logo.DataBindings.Clear();
+               
 
 
                 string sql = "SELECT NOM, LOGO FROM EQUIPES WHERE NUMEQUIPE = " + NumEquipe;
@@ -50,8 +50,9 @@ namespace TPFINAL
                 oraListe.Fill(monDataSet, "EquipeChoisi");
 
                 LBL_Nom.DataBindings.Add("Text", monDataSet, "EquipeChoisi.Nom");
-                PBX_Logo.DataBindings.Add("image", monDataSet, "EquipeChoisi.Logo", true);
-                PBX_Logo.SizeMode = PictureBoxSizeMode.StretchImage;
+                //PBX_Logo.DataBindings.Add("image", monDataSet, "EquipeChoisi.Logo", true);
+                //PBX_Logo.SizeMode = PictureBoxSizeMode.StretchImage;
+                PBX_Logo
 
             }
             catch (Exception ex)
